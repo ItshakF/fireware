@@ -1,0 +1,9 @@
+<div class="card-body">
+  <h5 class="card-title">{{ cardData.API }}</h5>
+  <p class="card-text trunk">{{ cardData.Description }}</p>
+  <div><a [attr.href]="cardData.Link">View docs</a></div>
+  <div class="card-bottom">
+    <div class="btn btn-primary">{{ cardData.Category }}</div>
+    <p>{{ cardData.HTTPS | http }}</p>
+  </div>
+</div>
